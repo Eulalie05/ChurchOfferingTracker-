@@ -1,0 +1,9 @@
+<?php
+
+    $conn = new PDO("mysql:host=localhost;dbname=projet_3", "root", "");
+
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // echo "<h1>connected</h1>";
+
+?>
